@@ -16,4 +16,4 @@ Animation is playing on the web site
   
   
 Animation is playing in SparkAR  
-![sample](spark.gif) 
+![sample](sparkAR.gif) 
