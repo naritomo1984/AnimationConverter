@@ -5,5 +5,15 @@ This is Maya script for converting the frame by frame geometry animation(Such as
 Optimize the frame rate 15 fps for web or mobile usage. Also this script will rearragne the UV layout.  
 So that meshes can share textures and materials over the frames, which helps to reduce the number of drawcalls.
 
-Originally this script designed for SparkAR studio usage  
-however the result FBX animation can be used any engines that uses FBX file. 
+Originally this script designed for SparkAR studio usage.  
+however the result FBX animation can be used any engines that uses FBX file.  
+  
+  
+Animation is playing on the web site
+![sample](web.gif)  
+  
+  
+  
+  
+Animation is playing in SparkAR  
+![sample](spark.gif) 
