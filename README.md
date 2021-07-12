@@ -17,9 +17,3 @@ Animation is playing on the web site
   
 Animation is playing in SparkAR  
 ![sample](sparkAR.gif) 
-  
-  
-  
-  
-Material and texture image after this script process  
-![sample](materials.jpg)
