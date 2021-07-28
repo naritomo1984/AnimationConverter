@@ -67,11 +67,11 @@ def getTexturefile(obj, sep):
 def combinetexture(texturelist, sep, pPath, scriptPath):
     if(sep == '/'):
         ## For OSX environment
-        ##command ='usr/bin/python' + ' ' + 'Users/tomo/Desktop/3k/combineTexture.py' + " " + texturelist
+        ##command ='usr/bin/python' + ' ' + 'Users/Desktop/3k/combineTexture.py' + " " + texturelist
         command = pPath + ' ' + scriptPath + " " + texturelist
     else:
         ## For windows environment 
-        ##command = [r'C:\\Users\\tmnr\\AppData\\Local\\Microsoft\\WindowsApps\\Python.exe', '-i', r'J:\\DimensionSparkAR\\Karate\\3k\\combineTexture.py']
+        ##command = [r'C:\\Users\\usr\\AppData\\Local\\Microsoft\\WindowsApps\\Python.exe', '-i', r'J:\\combineTexture.py']
         command = [pPath,'-i', scriptPath]
         command.append(texturelist)
     proc = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
