@@ -11,7 +11,7 @@ however the result FBX animation can be used any engines that uses FBX file.
   
 
 Prerequisite  
---Python2.7
+--Python2.7  
 --pillow  
   
 Install and Usage.  
