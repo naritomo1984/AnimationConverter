@@ -23,7 +23,7 @@ Hit the Convert Mesh Animation button.
 When it's done, you can save meshes as FBX. Optimized new textures are in "Combined" folder in your original folder.  
   
 
-Current Limitation  July 2021  
+Current Limitation as of July 2021  
 Mesh name format should be "mesh-f#####.obj"  
 Framerate is fixed as 15fps  
 
